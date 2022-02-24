@@ -12,6 +12,7 @@
 @import url('../blocks/list/list.css');
 @import url('../blocks/list-item/list-item.css');
 @import url('../blocks/page-title/page-title.css');
+@import url('../blocks/button/button.css');
 /* blocks */
 
 /* elements */
@@ -19,6 +20,7 @@
 @import url('../blocks/header/__link/header__link.css');
 @import url('../blocks/page-title/__accent/page-title__accent.css');
 @import url('../blocks/hero/__description/hero__description.css');
+@import url('../blocks/landing-page/__image/landing-page__image.css');
 
 /* elements */
 
@@ -26,4 +28,5 @@
 @import url('../blocks/logo/_place/logo_place_header.css');
 @import url('../blocks/list/_place/list_place_header.css');
 @import url('../blocks/list-item/_place/list-item_place_header.css');
+@import url('../blocks/button/_type/button_type_main.css');
 /* modifiers */

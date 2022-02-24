@@ -1,0 +1,7 @@
+.landing-page__image {
+  max-width: 406px;
+  max-height: 180px;
+  display: block;
+  margin: 45px auto 0;
+  opacity: 0.8;
+}

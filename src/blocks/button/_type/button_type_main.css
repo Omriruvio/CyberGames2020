@@ -1,0 +1,9 @@
+.button_type_main {
+  width: 143px;
+  height: 58px;
+  margin: 31px auto 0;
+  border: 1px solid rgba(196, 196, 196, 0.7);
+  border-radius: 13px;
+  font-size: 2rem;
+  font-weight: 700;
+}
