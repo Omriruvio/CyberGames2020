@@ -4,13 +4,22 @@
 /* normalize & fonts*/
 
 /* blocks */
-
+@import url('../blocks/page/page.css');
+@import url('../blocks/hero/hero.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/list/list.css');
+@import url('../blocks/list-item/list-item.css');
 /* blocks */
 
 /* elements */
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__link/header__link.css');
 
 /* elements */
 
 /* modifiers */
-
+@import url('../blocks/logo/_place/logo_place_header.css');
+@import url('../blocks/list/_place/list_place_header.css');
+@import url('../blocks/list-item/_place/list-item_place_header.css');
 /* modifiers */

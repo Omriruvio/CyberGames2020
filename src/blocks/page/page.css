@@ -1,0 +1,9 @@
+.page {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+  background-image: url('../../images/bg.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}

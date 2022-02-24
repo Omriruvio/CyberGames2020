@@ -1,0 +1,6 @@
+.header__nav {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  margin: auto;
+}

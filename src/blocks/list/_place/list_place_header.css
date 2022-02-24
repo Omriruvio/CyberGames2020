@@ -1,0 +1,6 @@
+.list_place_header {
+  display: flex;
+  padding: 0;
+  margin: 38px 0 0;
+  gap: 41px;
+}
