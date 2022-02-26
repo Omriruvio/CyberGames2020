@@ -1,0 +1,6 @@
+.team__members {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 63px;
+}
