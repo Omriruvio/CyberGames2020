@@ -17,6 +17,7 @@
 @import url('../blocks/circle-icon/circle-icon.css');
 @import url('../blocks/team/team.css');
 @import url('../blocks/brief/brief.css');
+@import url('../blocks/media/media.css');
 /* blocks */
 
 /* elements */
@@ -32,12 +33,18 @@
 @import url('../blocks/team/__categories/team__categories.css');
 @import url('../blocks/team/__category/team__category.css');
 @import url('../blocks/team/__members/team__members.css');
+@import url('../blocks/media/__nav/media__nav.css');
+@import url('../blocks/media/__articles/media__articles.css');
+@import url('../blocks/media/__videos/media__videos.css');
+@import url('../blocks/media/__wrapper/media__wrapper.css');
+@import url('../blocks/media/__link/media__link.css');
 /* elements */
 
 /* modifiers */
 @import url('../blocks/logo/_place/logo_place_header.css');
 @import url('../blocks/list/_place/list_place_header.css');
 @import url('../blocks/list-item/_place/list-item_place_header.css');
+@import url('../blocks/list-item/_place/list-item_place_footer.css');
 @import url('../blocks/button/_type/button_type_main.css');
 @import url('../blocks/circle-icon/_place/circle-icon_place_features.css');
 @import url('../blocks/circle-icon/_place/circle-icon_place_team.css');

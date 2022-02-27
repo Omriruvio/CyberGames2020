@@ -9,3 +9,8 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.media .brief {
+  width: 100%;
+  padding: 0;
+}
