@@ -18,6 +18,7 @@
 @import url('../blocks/team/team.css');
 @import url('../blocks/brief/brief.css');
 @import url('../blocks/media/media.css');
+@import url('../blocks/footer/footer.css');
 /* blocks */
 
 /* elements */
@@ -38,10 +39,21 @@
 @import url('../blocks/media/__videos/media__videos.css');
 @import url('../blocks/media/__wrapper/media__wrapper.css');
 @import url('../blocks/media/__link/media__link.css');
+@import url('../blocks/footer/__contact-wrapper/footer__contact-wrapper.css');
+@import url('../blocks/footer/__text/footer__text.css');
+@import url('../blocks/footer/__contact-item/footer__contact-item.css');
+@import url('../blocks/footer/__additional/footer__additional.css');
+@import url('../blocks/footer/__links/footer__links.css');
+@import url('../blocks/footer/__nav-header/footer__nav-header.css');
+@import url('../blocks/footer/__nav/footer__nav.css');
+@import url('../blocks/footer/__social/footer__social.css');
+@import url('../blocks/footer/__link/footer__link.css');
+
 /* elements */
 
 /* modifiers */
 @import url('../blocks/logo/_place/logo_place_header.css');
+@import url('../blocks/logo/_place/logo_place_footer.css');
 @import url('../blocks/list/_place/list_place_header.css');
 @import url('../blocks/list-item/_place/list-item_place_header.css');
 @import url('../blocks/list-item/_place/list-item_place_footer.css');

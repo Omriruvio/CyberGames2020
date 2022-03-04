@@ -1,0 +1,7 @@
+.footer__contact-item {
+  margin-bottom: 14px;
+}
+
+.footer__contact-item:last-child {
+  margin-top: 50px;
+}

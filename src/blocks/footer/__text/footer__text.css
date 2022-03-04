@@ -1,0 +1,9 @@
+.footer__text {
+  color: rgba(196, 196, 196, 0.7);
+  font-size: 14px;
+  margin: 0 0 14px;
+}
+
+.footer__contact-wrapper .footer__text {
+  margin: 0;
+}
