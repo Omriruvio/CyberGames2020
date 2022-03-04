@@ -1,6 +1,10 @@
 .landing-page {
-  background: radial-gradient(78.86% 78.86% at 50% -65.92%, rgba(44, 180, 205, 0.86) 0%, rgba(1, 2, 2, 0) 100%);
   min-height: 100vh;
-  max-width: 1440px;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* position: relative; */
+  /* z-index: -1; */
 }

@@ -1,5 +1,5 @@
 .header {
+  /* background: radial-gradient(78.86% 78.86% at 50% -7.92%, rgba(44, 180, 205, 0.86) 0%, rgba(1, 2, 2, 0) 100%); */
   display: flex;
   width: 100%;
-  position: relative;
 }
