@@ -1,8 +1,11 @@
 .page-title {
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   font-weight: 900;
   font-size: 7.5rem;
   max-width: 870px;
-  margin: auto;
+}
+
+.page-title:not(.landing-page .page-title) {
+  margin-top: 15%;
 }

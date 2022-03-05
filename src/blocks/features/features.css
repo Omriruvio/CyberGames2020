@@ -1,4 +1,11 @@
 .features {
-  max-width: 1440px;
-  margin: 100px auto 0;
+  max-width: 2560px;
+  min-height: 100vh;
+  margin: 0 auto 0;
+  /*! display: flex; */
+  /*! flex-direction: column; */
+  /*! align-items: center; */
+  display: grid;
+  grid-template-rows: min-content auto;
+  justify-content: center;
 }
