@@ -1,5 +1,8 @@
 .media {
-  margin: 100px auto 0;
+  align-items: center;
+  display: grid;
+  grid-template-rows: 0.6fr 1fr;
+  justify-content: center;
+  margin: 100px 5% 0;
   max-width: 2560px;
-  /* min-height: 100vh; */
 }

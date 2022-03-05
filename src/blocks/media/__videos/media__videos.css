@@ -1,5 +1,5 @@
 .media__videos {
   display: flex;
   gap: 26px;
-  margin: 0 15%;
+  /* margin: 0 15%; */
 }

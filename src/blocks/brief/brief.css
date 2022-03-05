@@ -1,16 +1,11 @@
 .brief {
   border: 3px solid rgba(44, 180, 205, 1);
   border-radius: 19px;
-  max-width: 955px;
   min-height: 300px;
-  margin: 80px 0 0;
+  margin: 80px 10% 0;
   padding: 40px 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.media .brief {
-  width: 100%;
-  padding: 0;
+  max-width: 1280px;
 }

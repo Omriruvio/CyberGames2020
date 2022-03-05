@@ -1,3 +1,8 @@
+:root {
+  --header-height: 7vh;
+  --text-grey: hsla(0, 0%, 77%, 0.7);
+}
+
 /* normalize & fonts */
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
@@ -19,6 +24,7 @@
 @import url('../blocks/brief/brief.css');
 @import url('../blocks/media/media.css');
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/video-box/video-box.css');
 /* blocks */
 
 /* elements */
@@ -34,6 +40,7 @@
 @import url('../blocks/team/__categories/team__categories.css');
 @import url('../blocks/team/__category/team__category.css');
 @import url('../blocks/team/__members/team__members.css');
+@import url('../blocks/team/__main/team__main.css');
 @import url('../blocks/media/__nav/media__nav.css');
 @import url('../blocks/media/__articles/media__articles.css');
 @import url('../blocks/media/__videos/media__videos.css');

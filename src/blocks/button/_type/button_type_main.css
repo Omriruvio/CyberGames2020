@@ -1,13 +1,18 @@
 .button_type_main {
-  width: 143px;
-  height: 58px;
-  margin: 31px auto 0;
-  border: 1px solid rgba(196, 196, 196, 0.7);
+  border: 1px solid hsla(0, 0%, 77%, 0.7);
   border-radius: 13px;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 700;
+  height: 58px;
+  margin: 0 auto;
+  width: 143px;
+  display: block;
 }
 
-.team .button_type_main {
+/* .team .button_type_main {
   margin: 0 0 23px;
+} */
+
+.button_type_main:not(.team__category .button_type_main) {
+  cursor: pointer;
 }

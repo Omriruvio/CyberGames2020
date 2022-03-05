@@ -8,12 +8,11 @@
     <meta name="author" content="Omri Ruvio" />
     <meta name="keywords" content="Cybersecurity, Cyber, Game, Educational, Platform" />
     <title>CyberGames Official Home Page</title>
-    <link rel="stylesheet" href="./page/index.css" class="rel">
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <img src="./images/logo_place_header.svg" alt="cybergames logo" class="logo logo_place_header">
+        <img src="<%=require('./images/logo_place_header.svg')%>" alt="cybergames logo" class="logo logo_place_header">
         <nav class="header__nav">
           <ul class="list list_place_header">
             <li class="list-item list-item_place-header"><a href="#" class="header__link">Home</a></li>
@@ -29,67 +28,68 @@
           <h1 class="page-title">Unleash Your Hidden <span class="page-title__accent">HACKER</span></h1>
           <p class="hero__description">CyberGames is a community-focused, cybersecurity online game where players complete challenges in immersive cyber environments, socializing, sharing knowledge and competing for top ranks in the leaderboard.</p>
         </section>
-        <button type="button" class="button button_type_main"><a href="#about-us" class="header__link">About Us</a></button>
-        <img src="./images/main__stack.png" alt="blocks illustration" class="landing-page__image">
+        <a href="#about-us" class="header__link"><button type="button" class="button button_type_main">About Us</button></a>
+        <img src="<%=require('./images/main__stack.png')%>" alt="blocks illustration" class="landing-page__image">
       </section>
       <section class="features" id="about-us">
         <h2 class="page-title">Entry Barriers To Cybersecurity <span class="page-title__accent">Removed</span></h2>
           <ul class="features__grid">
-            <li class="circle-icon circle-icon_place_features"><img src="./images/certified_icon.png" alt="certified shield icon" class="circle-icon__image"></li>
-            <li class="circle-icon circle-icon_place_features"><img src="./images/matrix_svg.png" alt="matrix letters dropping" class="circle-icon__image"></li>
-            <li class="circle-icon circle-icon_place_features"><img src="./images/choices_icon.png" alt="person icon with arrows around" class="circle-icon__image"></li>
-            <li class="circle-icon circle-icon_place_features"><img src="./images/multiplayer_icon.png" alt="three persons icon" class="circle-icon__image"></li>
-            <li class="circle-icon circle-icon_place_features"><img src="./images/infinity_icon.png" alt="infinity symbol" class="circle-icon__image"></li>
-            <li class="circle-icon circle-icon_place_features"><img src="./images/leaderboard_icon.png" alt="podium with star illustration" class="circle-icon__image"></li>
+            <li class="circle-icon circle-icon_place_features"><img src="<%=require('./images/certified_icon.png')%>" alt="certified shield icon" class="circle-icon__image"></li>
+            <li class="circle-icon circle-icon_place_features"><img src="<%=require('./images/matrix_svg.png')%>" alt="matrix letters dropping" class="circle-icon__image"></li>
+            <li class="circle-icon circle-icon_place_features"><img src="<%=require('./images/choices_icon.png')%>" alt="person icon with arrows around" class="circle-icon__image"></li>
+            <li class="circle-icon circle-icon_place_features"><img src="<%=require('./images/multiplayer_icon.png')%>" alt="three persons icon" class="circle-icon__image"></li>
+            <li class="circle-icon circle-icon_place_features"><img src="<%=require('./images/infinity_icon.png')%>" alt="infinity symbol" class="circle-icon__image"></li>
+            <li class="circle-icon circle-icon_place_features"><img src="<%=require('./images/leaderboard_icon.png')%>" alt="podium with star illustration" class="circle-icon__image"></li>
           </ul>
-          <button type="button" class="button button_type_main"><a href="#the-team" class="header__link">The Team</a></button>
+          <a href="#the-team" class="header__link"><button type="button" class="button button_type_main">The Team</button></a>
       </section>
       <section class="team" id="the-team">
         <h2 class="page-title">Our <span class="page-title__accent">Team</span></h2>
-        <div class="team__categories">
+        <div class="team__main">
+          <div class="team__categories">
           <div class="team__category">
-            <button type="button" class="button button_type_main">Founders</button>
+            <button type="button" class="button button_type_main header__link">Founders</button>
             <ul class="team__members">
-              <li class="circle-icon circle-icon_place_team"><img src="./images/Omri_icon.png" alt="" class="circle-icon__image"></li>
-              <li class="circle-icon circle-icon_place_team"><img src="./images/Guy_icon.png" alt="" class="circle-icon__image"></li>
+              <li class="circle-icon circle-icon_place_team"><img src="<%=require('./images/Omri_icon.png')%>" alt="" class="circle-icon__image"></li>
+              <li class="circle-icon circle-icon_place_team"><img src="<%=require('./images/Guy_icon.png')%>" alt="" class="circle-icon__image"></li>
             </ul>
           </div>
           <div class="team__category">
-            <button type="button" class="button button_type_main">Advisory</button>
+            <button type="button" class="button button_type_main header__link">Advisory</button>
             <ul class="team__members">
-              <li class="circle-icon circle-icon_place_team"><img src="./images/Saar_icon.png" alt="" class="circle-icon__image"></li>
-              <li class="circle-icon circle-icon_place_team"><img src="./images/Shai_icon.png" alt="" class="circle-icon__image"></li>
+              <li class="circle-icon circle-icon_place_team"><img src="<%=require('./images/Saar_icon.png')%>" alt="" class="circle-icon__image"></li>
+              <li class="circle-icon circle-icon_place_team"><img src="<%=require('./images/Shai_icon.png')%>" alt="" class="circle-icon__image"></li>
             </ul>
           </div>
+          </div>
+          <section class="brief">
+            <h2 class="brief__title">Place Holder Name</h2>
+            <p class="brief__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat sed harum in aperiam rerum pariatur itaque rem voluptate accusantium. Accusamus mollitia, itaque atque consequatur ad molestiae repellat dolore quo incidunt eos dolores nobis quos, aperiam sequi numquam ex. Delectus, voluptas.</p>
+          </section>
         </div>
-        <section class="brief">
-          <h2 class="brief__title">Place Holder Name</h2>
-          <p class="brief__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat sed harum in aperiam rerum pariatur itaque rem voluptate accusantium. Accusamus mollitia, itaque atque consequatur ad molestiae repellat dolore quo incidunt eos dolores nobis quos, aperiam sequi numquam ex. Delectus, voluptas.</p>
-        </section>
-        <button type="button" class="button button_type_main"><a href="#media" class="header__link">Media</a></button>
+        <a href="#media" class="header__link"><button type="button" class="button button_type_main">Media</button></a>
       </section>
       <section class="media" id="media">
         <h2 class="page-title">In The <span class="page-title__accent">Press</span></h2>
-        <button class="button button_type_main">Videos</button>
+        <!-- <button class="button button_type_main header__link">Videos</button> -->
         <section class="media__videos">
           <div class="media__wrapper">
-            <div class="brief"></div>
+            <div class="video-box">
+              <video src=" " id="cybergamestrailer" controls></video>
+            </div>
             <h2 class="brief__title">Omri Ruvio</h2>
             <p class="brief__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ipsum quis quibusdam autem, ea </p>
           </div>
           <div class="media__wrapper">
-            <div class="brief"></div>
-            <h2 class="brief__title">Omri Ruvio</h2>
-            <p class="brief__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ipsum quis quibusdam autem, ea </p>
-          </div>
-          <div class="media__wrapper">
-            <div class="brief"></div>
+            <div class="video-box">
+              <video src=" " id="cybergamesrupin" controls></video>
+            </div>
             <h2 class="brief__title">Omri Ruvio</h2>
             <p class="brief__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ipsum quis quibusdam autem, ea </p>
           </div>
         </section>
-        <section class="media__articles">
-          <button class="button button_type_main">Articles</button>
+        <!-- <section class="media__articles">
+          <button class="button button_type_main header__link">Articles</button>
           <nav class="media__nav">
             <ul class="list list_place_header">
               <li class="list-item list-item_place_media"><a href="#" class="media__link">Home</a></li>
@@ -99,11 +99,11 @@
               <li class="list-item list-item_place_media"><a href="#" class="media__link">Contact</a></li>
             </ul>
           </nav>
-        </section>
+        </section> -->
       </section>
       <footer class="footer" id="footer">
         <section class="footer__contact-wrapper">
-          <img src="./images/logo_place_footer.svg" alt="cybergames logo white" class="logo logo_place_footer">
+          <img src="<%=require('./images/logo_place_footer.svg')%>" alt="cybergames logo white" class="logo logo_place_footer">
           <div class="footer__contact-item">
             <h3 class="footer__text">CyberGames support:</h3>
             <span class="footer__text"><a href="#" class="footer__link">support@cyber.games</a></span>
@@ -140,6 +140,5 @@
         </section>
       </footer>
     </div>
-    <script src="./page/index.js"></script>
   </body>
 </html>

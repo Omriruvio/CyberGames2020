@@ -6,6 +6,6 @@
   max-width: 870px;
 }
 
-.page-title:not(.landing-page .page-title) {
-  margin-top: 15%;
-}
+/* .page-title:not(.landing-page .page-title) {
+  margin-top: 10%;
+} */
