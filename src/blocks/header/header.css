@@ -1,6 +1,10 @@
 .header {
-  /* background: radial-gradient(78.86% 78.86% at 50% -7.92%, rgba(44, 180, 205, 0.86) 0%, rgba(1, 2, 2, 0) 100%); */
   display: flex;
   max-width: 2560px;
-  margin: auto;
+  margin: 0 5%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 40px; */
+  min-height: 100px;
 }
