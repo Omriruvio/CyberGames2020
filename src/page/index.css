@@ -3,6 +3,11 @@
   --text-grey: hsla(0, 0%, 77%, 0.7);
 }
 
+#cybergamestrailer,
+#cybergamesrupin {
+  object-fit: cover;
+}
+
 /* normalize & fonts */
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
