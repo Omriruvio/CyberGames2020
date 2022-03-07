@@ -2,10 +2,11 @@
   border: 3px solid rgba(44, 180, 205, 1);
   border-radius: 19px;
   min-height: 300px;
-  margin: 80px 10% 0;
-  padding: 40px 70px;
+  margin-top: 80px;
+  padding: 0 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1280px;
+  width: 100%;
+  box-sizing: border-box;
 }

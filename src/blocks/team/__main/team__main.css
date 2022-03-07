@@ -1,4 +1,8 @@
 .team__main {
   align-self: flex-start;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
