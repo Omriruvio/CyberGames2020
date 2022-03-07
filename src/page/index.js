@@ -1,7 +1,7 @@
 import './index.css'
 
 const teamInfo = {
-  omri: {name:'Omri Ruvio', role:'Co-founder / CEO',about: 'Full stack software engineer, cyber enthusiast, L33T gamer, leader of virtual and real-life teams.'},
+  omri: {name:'Omri Ruvio', role:'Co-founder / CEO',about: 'Full stack web developer, cyber enthusiast, L33T gamer, leader of virtual and real-life teams.'},
   guy: {name:'Guy Ruvio', role:'Co-founder', about:'co-founder of Towersec (acq. by Harman / Samsung), Ex 8200, high security positions in governmental organizations conductive security assessments of high-profile civil organizations and Ethical hacker.'},
   shai: {name:'Shai Kavas', role:'Advisory Board',about: 'Cyber Security Veteran. RAD, Intel. CEO of CyberGuild Ventures, Investor and Venture Builder.'},
   saar: {name:'Saar Dickman', role:'Advisory Board',about: 'Co-founder of Towersec (acq. by Harman / Samsung), Founder and CEO of Dynamicinfrastructure'}
