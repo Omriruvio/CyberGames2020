@@ -1,5 +1,8 @@
 .footer__contact-item {
   margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer__contact-item:last-child {

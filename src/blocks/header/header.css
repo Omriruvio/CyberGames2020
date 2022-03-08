@@ -7,4 +7,5 @@
   align-items: center;
   /* padding-top: 40px; */
   min-height: var(--header-height);
+  scroll-snap-align: start;
 }

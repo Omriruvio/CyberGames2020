@@ -1,9 +1,16 @@
 .media {
   align-items: center;
   display: grid;
-  grid-template-rows: 0.6fr 1fr;
+  /* grid-template-rows: 0.6fr 1fr; */
   justify-content: center;
   margin: 100px 5% 0;
   max-width: 2560px;
   justify-items: center;
+  scroll-snap-align: start;
+}
+
+@media screen and (max-width: 720px) {
+  .media {
+    /* grid-template-rows: 0.3fr 1fr; */
+  }
 }

@@ -15,11 +15,11 @@
         <img src="<%=require('./images/logo_place_header.svg')%>" alt="cybergames logo" class="logo logo_place_header">
         <nav class="header__nav">
           <ul class="list list_place_header">
-            <li class="list-item list-item_place-header"><a href="#" class="header__link">Home</a></li>
-            <li class="list-item list-item_place-header"><a href="#about-us" class="header__link">Features</a></li>
-            <li class="list-item list-item_place-header"><a href="#the-team" class="header__link">The Team</a></li>
-            <li class="list-item list-item_place-header"><a href="#media" class="header__link">Media</a></li>
-            <li class="list-item list-item_place-header"><a href="#footer" class="header__link">Contact</a></li>
+            <li class="list-item list-item_place-header"><a href="#" class="link header__link">Home</a></li>
+            <li class="list-item list-item_place-header"><a href="#about-us" class="link header__link">Features</a></li>
+            <li class="list-item list-item_place-header"><a href="#the-team" class="link header__link">The Team</a></li>
+            <li class="list-item list-item_place-header"><a href="#media" class="link header__link">Media</a></li>
+            <li class="list-item list-item_place-header"><a href="#footer" class="link header__link">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -47,20 +47,20 @@
         <h2 class="page-title">Our <span class="page-title__accent">Team</span></h2>
         <div class="team__main">
           <div class="team__categories">
-          <div class="team__category">
-            <button type="button" class="button button_type_main header__link">Founders</button>
-            <ul class="team__members">
-              <li class="circle-icon circle-icon_place_team" id="js-omri-icon"><img src="<%=require('./images/Omri_icon.png')%>" alt="" class="circle-icon__image"></li>
-              <li class="circle-icon circle-icon_place_team" id="js-guy-icon"><img src="<%=require('./images/Guy_icon.png')%>" alt="" class="circle-icon__image"></li>
-            </ul>
-          </div>
-          <div class="team__category">
-            <button type="button" class="button button_type_main header__link">Advisory</button>
-            <ul class="team__members">
-              <li class="circle-icon circle-icon_place_team" id="js-saar-icon"><img src="<%=require('./images/Saar_icon.png')%>" alt="" class="circle-icon__image"></li>
-              <li class="circle-icon circle-icon_place_team" id="js-shai-icon"><img src="<%=require('./images/Shai_icon.png')%>" alt="" class="circle-icon__image"></li>
-            </ul>
-          </div>
+            <section class="team__category">
+              <button type="button" class="button button_type_main header__link">Founders</button>
+              <ul class="team__members">
+                <li class="circle-icon circle-icon_place_team" id="js-omri-icon"><img src="<%=require('./images/Omri_icon.png')%>" alt="" class="circle-icon__image"></li>
+                <li class="circle-icon circle-icon_place_team" id="js-guy-icon"><img src="<%=require('./images/Guy_icon.png')%>" alt="" class="circle-icon__image"></li>
+              </ul>
+            </section>
+            <section class="team__category">
+              <button type="button" class="button button_type_main header__link">Advisory</button>
+              <ul class="team__members">
+                <li class="circle-icon circle-icon_place_team" id="js-saar-icon"><img src="<%=require('./images/Saar_icon.png')%>" alt="" class="circle-icon__image"></li>
+                <li class="circle-icon circle-icon_place_team" id="js-shai-icon"><img src="<%=require('./images/Shai_icon.png')%>" alt="" class="circle-icon__image"></li>
+              </ul>
+            </section>
           </div>
           <section class="brief">
             <h2 class="brief__title" id="js-team-member-name">Omri Ruvio</h2>
@@ -76,17 +76,17 @@
         <section class="media__videos">
           <div class="media__wrapper">
             <div class="video-box">
-              <video src=" " id="cybergamestrailer" controls></video>
+              <video src=" " id="cybergamestrailer" controls muted></video>
             </div>
-            <h2 class="brief__title">Omri Ruvio</h2>
-            <p class="brief__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ipsum quis quibusdam autem, ea </p>
+            <h2 class="brief__title">CyberGames original trailer</h2>
+            <!-- <p class="brief__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ipsum quis quibusdam autem, ea </p> -->
           </div>
           <div class="media__wrapper">
             <div class="video-box">
-              <video src=" " id="cybergamesrupin" controls></video>
+              <video src=" " id="cybergamesrupin" controls muted></video>
             </div>
-            <h2 class="brief__title">Omri Ruvio</h2>
-            <p class="brief__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ipsum quis quibusdam autem, ea </p>
+            <h2 class="brief__title">Rupin college implementation</h2>
+            <!-- <p class="brief__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ipsum quis quibusdam autem, ea </p> -->
           </div>
         </section>
         <!-- <section class="media__articles">
@@ -107,12 +107,12 @@
           <img src="<%=require('./images/logo_place_footer.svg')%>" alt="cybergames logo white" class="logo logo_place_footer">
           <div class="footer__contact-item">
             <h3 class="footer__text">CyberGames support:</h3>
-            <span class="footer__text"><a href="#" class="footer__link">support@cyber.games</a></span>
+            <span class="footer__text"><a href="#" class="link footer__link">support@cyber.games</a></span>
           </div>
           <div class="footer__contact-item">
             <h3 class="footer__text">Business inquiries:</h3>
-            <span class="footer__text"><a href="#" class="footer__link">omri@cyber.games</a></span>
-            <span class="footer__text"><a href="#" class="footer__link">omriruvio@gmail.com</a></span>
+            <span class="footer__text"><a href="#" class="link footer__link">omri@cyber.games</a></span>
+            <span class="footer__text"><a href="#" class="link footer__link">omriruvio@gmail.com</a></span>
           </div>
           <div class="footer__contact-item">
             <span class="footer__text">&copy; Copyright CyberGames 2022</span>
@@ -122,20 +122,20 @@
           <nav class="footer__links">
             <h3 class="footer__nav-header">Quick Links</h3>
             <ul class="footer__nav list">
-              <li class="list-item list-item_place_footer footer__text"><a href="#" class="footer__link">Home</a></li>
-              <li class="list-item list-item_place_footer footer__text"><a href="#" class="footer__link">Features</a></li>
-              <li class="list-item list-item_place_footer footer__text"><a href="#" class="footer__link">The Team</a></li>
-              <li class="list-item list-item_place_footer footer__text"><a href="#" class="footer__link">Media</a></li>
-              <li class="list-item list-item_place_footer footer__text"><a href="#" class="footer__link">Contact</a></li>
+              <li class="list-item list-item_place_footer footer__text"><a href="#" class="link footer__link">Home</a></li>
+              <li class="list-item list-item_place_footer footer__text"><a href="#" class="link footer__link">Features</a></li>
+              <li class="list-item list-item_place_footer footer__text"><a href="#" class="link footer__link">The Team</a></li>
+              <li class="list-item list-item_place_footer footer__text"><a href="#" class="link footer__link">Media</a></li>
+              <li class="list-item list-item_place_footer footer__text"><a href="#" class="link footer__link">Contact</a></li>
             </ul>
           </nav>
           <nav class="footer__social">
             <h3 class="footer__nav-header">Social</h3>
             <ul class="footer__nav list">
-              <li class="list-item list-item_place_footer footer__text"><a href="#" class="footer__link">Linkedin</a></li>
-              <li class="list-item list-item_place_footer footer__text"><a href="#" class="footer__link">Twitter</a></li>
-              <li class="list-item list-item_place_footer footer__text"><a href="#" class="footer__link">Instagram</a></li>
-              <li class="list-item list-item_place_footer footer__text"><a href="#" class="footer__link">Facebook</a></li>
+              <li class="list-item list-item_place_footer footer__text"><a href="#" class="link footer__link">Linkedin</a></li>
+              <li class="list-item list-item_place_footer footer__text"><a href="#" class="link footer__link">Twitter</a></li>
+              <li class="list-item list-item_place_footer footer__text"><a href="#" class="link footer__link">Instagram</a></li>
+              <li class="list-item list-item_place_footer footer__text"><a href="#" class="link footer__link">Facebook</a></li>
             </ul>
           </nav>
         </section>
