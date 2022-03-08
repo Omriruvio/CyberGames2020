@@ -9,3 +9,9 @@
 /* .page-title:not(.landing-page .page-title) {
   margin-top: 10%;
 } */
+
+@media screen and (max-width: 640px) {
+  .page-title {
+    font-size: 5rem;
+  }
+}

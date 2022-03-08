@@ -2,5 +2,6 @@
   list-style: none;
   padding: 0;
   display: flex;
-  gap: 63px;
+  gap: 5vw;
+  margin-top: 40px;
 }

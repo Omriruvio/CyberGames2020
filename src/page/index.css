@@ -3,21 +3,6 @@
 @import url('../vendor/fonts.css');
 /* normalize & fonts*/
 
-body {
-  box-sizing: border-box;
-}
-
-:root {
-  --header-height: 7vh;
-  --text-grey: hsla(0, 0%, 77%, 0.7);
-}
-
-#cybergamestrailer,
-#cybergamesrupin {
-  object-fit: cover;
-  aspect-ratio: 16/9;
-}
-
 /* blocks */
 @import url('../blocks/page/page.css');
 @import url('../blocks/landing-page/landing-page.css');
@@ -79,3 +64,30 @@ body {
 @import url('../blocks/circle-icon/_place/circle-icon_place_features.css');
 @import url('../blocks/circle-icon/_place/circle-icon_place_team.css');
 /* modifiers */
+
+body {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-height: 7vh;
+  --text-grey: hsla(0, 0%, 77%, 0.7);
+  --color-cyan: #2cb4cd;
+}
+
+#cybergamestrailer,
+#cybergamesrupin {
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 50%;
+  }
+}
+/* @media screen and (max-width: 640px) {
+  html {
+    font-size: 40%;
+  }
+} */
