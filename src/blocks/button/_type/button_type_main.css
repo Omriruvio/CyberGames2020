@@ -9,6 +9,7 @@
   display: block;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 /* .team .button_type_main {
