@@ -2,7 +2,7 @@
   border: 3px solid rgba(44, 180, 205, 1);
   border-radius: 19px;
   overflow: hidden;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .video-box video {
